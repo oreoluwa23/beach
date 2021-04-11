@@ -1,0 +1,71 @@
+/* default settings */
+body {
+  box-sizing: border-box;
+  font-family: "Lato" sans-serif;
+  margin: 0;
+  width: 100%;
+}
+/* General settings */
+header {
+  background-image: url(images/sebastien-jermer-n7DY58YFg9E-unsplash.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #03037e;
+  letter-spacing: 2px;
+}
+span {
+  color: #0b0b47;
+}
+
+h1 {
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-family: sans-serif;
+}
+img {
+  width: 50%;
+  margin-left: 1em;
+}
+/* typography */
+.header-text {
+  color: #03037eb2;
+  font-weight: 500;
+  font-size: 1.8rem;
+  letter-spacing: 0;
+}
+/* button-settings */
+.header-btn {
+  padding: 1.5em;
+  text-transform: capitalize;
+  border-radius: 10px;
+  background-color: transparent;
+  font-weight: 900;
+  border-color: #03037e;
+  color: #03037e;
+  transform: scale(1);
+  transition: transform 500ms;
+}
+.header-btn:hover {
+  background-color: white;
+  cursor: pointer;
+  transform: scale(1.5);
+}
+/* beach-info */
+.container {
+  background-color: #03037e;
+  background-image: linear-gradient(90deg, rgb(71, 65, 96), blue);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.cols {
+  width: 25%;
+}
